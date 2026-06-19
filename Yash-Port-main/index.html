@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yash Tiwari - software engineer portfolio featuring projects, skills, education, and contact information.">
+  <title>Yash Tiwari - Software Engineer Portfolio</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top" class="light_theme">
+  <header class="header" data-header>
+    <div class="container nav-shell">
+      <a href="#home" class="logo" aria-label="Yash Tiwari home">Yash<span>.</span></a>
+
+      <nav class="navbar" data-navbar aria-label="Primary navigation">
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link active">Home</a></li>
+          <li><a href="#about" class="navbar-link">About</a></li>
+          <li><a href="#education" class="navbar-link">Education</a></li>
+          <li><a href="#portfolio" class="navbar-link">Projects</a></li>
+          <li><a href="#skills" class="navbar-link">Skills</a></li>
+          <li><a href="#contact" class="navbar-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar-actions">
+        <select name="language" id="lang" aria-label="Language">
+          <option value="en">En</option>
+          <option value="hn">Hn</option>
+        </select>
+
+        <button class="theme-btn" type="button" aria-label="Change theme" title="Change theme" data-theme-btn>
+          <span class="theme-btn-track" aria-hidden="true">
+            <span class="theme-btn-icon"></span>
+          </span>
+        </button>
+
+        <a class="btn btn-small btn-primary nav-resume" href="./Yash-Tiwari-Resume.pdf" download>Resume</a>
+
+        <button class="nav-toggle-btn" type="button" aria-label="Toggle menu" aria-expanded="false" data-nav-toggle-btn>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content" data-animate>
+          <p class="eyebrow">Software Engineer Portfolio</p>
+          <h1>Hi, I'm <span>Yash Tiwari</span></h1>
+          <p class="hero-role">I'm a <span class="dynamic-text" aria-live="polite"></span></p>
+          <p class="hero-summary">
+            I build simple, intuitive and responsive user interfaces, while growing through web development,
+            data structures, algorithms, and full-stack product thinking.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./Yash-Tiwari-Resume.pdf" download>Download Resume</a>
+            <a class="btn btn-secondary" href="#portfolio">View Projects</a>
+          </div>
+
+          <ul class="hero-socials" aria-label="Social links">
+            <li><a href="https://github.com/yashktiwari" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yashktiwari03/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:yashktiwari2003@gmail.com">Email</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" data-animate>
+          <div class="profile-card">
+            <div class="profile-image-wrap">
+              <img src="yash img.jpg" alt="Yash Tiwari" class="profile-photo">
+            </div>
+            <div class="profile-meta">
+              <span>Available for internships, freelance projects, and full-time frontend roles.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <p class="eyebrow">About me</p>
+          <h2>Focused on building useful products with clean execution.</h2>
+          <p>
+            Passionate about growth through trial and error, I thrive on embracing mistakes as opportunities
+            for learning. With a diligent work ethic and unwavering punctuality, I approach each task with
+            dedication and determination. Currently immersing myself in the realms of Web Development and Data
+            Structures & Algorithms, I am driven by a constant hunger for knowledge and improvement. Let's
+            connect and grow together.
+          </p>
+        </div>
+
+        <div class="strength-grid">
+          <article class="strength-card" data-animate>
+            <ion-icon name="bulb-outline" aria-hidden="true"></ion-icon>
+            <h3>Problem Solving</h3>
+            <p>Comfortable learning through iteration, debugging, and turning mistakes into better decisions.</p>
+          </article>
+          <article class="strength-card" data-animate>
+            <ion-icon name="color-wand-outline" aria-hidden="true"></ion-icon>
+            <h3>Frontend Development</h3>
+            <p>Builds responsive interfaces that help users get things done with less effort and time.</p>
+          </article>
+          <article class="strength-card" data-animate>
+            <ion-icon name="layers-outline" aria-hidden="true"></ion-icon>
+            <h3>Full Stack Development</h3>
+            <p>Hands-on with React, Node.js, MongoDB, SQL, and full-stack dashboard workflows.</p>
+          </article>
+          <article class="strength-card" data-animate>
+            <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+            <h3>Team Collaboration</h3>
+            <p>Brings punctuality, ownership, and a steady work ethic to collaborative project environments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section" aria-label="Portfolio stats">
+      <div class="container stats-grid">
+        <article class="stat-card" data-animate>
+          <span class="stat-value" data-target="3">0</span>
+          <p>Projects Completed</p>
+        </article>
+        <article class="stat-card" data-animate>
+          <span class="stat-value" data-target="11">0</span>
+          <p>Technologies Learned</p>
+        </article>
+        <article class="stat-card" data-animate>
+          <span class="stat-value" data-target="4">0</span>
+          <p>Years of Learning</p>
+        </article>
+        <article class="stat-card" data-animate>
+          <span class="stat-value" data-target="50">0</span>
+          <p>Contributions</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-heading compact" data-animate>
+          <p class="eyebrow">Education</p>
+          <h2>Academic foundation</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item" data-animate>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2022 - 2026</span>
+              <h3>Bachelor of Technology</h3>
+              <p class="institution">Greater Noida Institiute of Technology</p>
+              <p>Information Technology</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-heading portfolio-heading" data-animate>
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work and college projects</h2>
+          </div>
+
+          <div class="filter-controls" aria-label="Project filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="hardware">Hardware</button>
+            <button class="filter-btn" type="button" data-filter="software">Software</button>
+            <button class="filter-btn" type="button" data-filter="dashboard">Dashboard</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="hardware" data-animate>
+            <div class="project-thumb project-thumb-hardware" aria-hidden="true">
+              <ion-icon name="hardware-chip-outline"></ion-icon>
+              <span>IOT Based Project</span>
+            </div>
+            <div class="project-body">
+              <div class="project-kicker">Hardware</div>
+              <h3>Smart Hindrance Tracking Device</h3>
+              <p>Made a Smart Stick using Arduino and some sensor as Mini Project of My College.</p>
+              <div class="tag-list">
+                <span>Arduino</span>
+                <span>Sensors</span>
+                <span>IOT</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary" href="https://github.com/yashktiwari" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="btn btn-small btn-muted" href="#contact">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="software" data-animate>
+            <div class="project-thumb project-thumb-software" aria-hidden="true">
+              <ion-icon name="scan-outline"></ion-icon>
+              <span>Software</span>
+            </div>
+            <div class="project-body">
+              <div class="project-kicker">Software</div>
+              <h3>Captcha Recoginition Tool</h3>
+              <p>Made a tool that automatically Detect the Captcha as Mini Project of My College.</p>
+              <div class="tag-list">
+                <span>Automation</span>
+                <span>JavaScript</span>
+                <span>Recognition</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary" href="https://github.com/yashktiwari" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="btn btn-small btn-muted" href="#contact">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="dashboard" data-animate>
+            <div class="project-thumb project-thumb-dashboard" aria-hidden="true">
+              <ion-icon name="stats-chart-outline"></ion-icon>
+              <span>Dashboard</span>
+            </div>
+            <div class="project-body">
+              <div class="project-kicker">Dashboard</div>
+              <h3>Farmer Buyer Dashboard</h3>
+              <p>Full-stack dashboard connecting farmers and buyers.</p>
+              <div class="tag-list">
+                <span>Full Stack</span>
+                <span>Dashboard</span>
+                <span>Marketplace</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary" href="https://github.com/yashktiwari" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="btn btn-small btn-primary" href="https://agro-marketplace-eta.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <p class="eyebrow">My skills</p>
+          <h2>What my programming skills include</h2>
+          <p>
+            I develop simple, intuitive and responsive user interface that helps users get things done with less
+            effort and time with these technologies.
+          </p>
+        </div>
+
+        <div class="skill-category-grid">
+          <article class="skill-category-card" data-animate>
+            <div class="category-header">
+              <h3>Frontend</h3>
+              <span>Interface</span>
+            </div>
+            <ul class="skill-list">
+              <li><img src="./html5.png" alt="">HTML <span>90%</span><div class="progress"><i data-progress="90"></i></div></li>
+              <li><img src="./css3.png" alt="">CSS <span>86%</span><div class="progress"><i data-progress="86"></i></div></li>
+              <li><img src="./javascript.png" alt="">JavaScript <span>78%</span><div class="progress"><i data-progress="78"></i></div></li>
+              <li><img src="./react.png" alt="">React <span>72%</span><div class="progress"><i data-progress="72"></i></div></li>
+            </ul>
+          </article>
+
+          <article class="skill-category-card" data-animate>
+            <div class="category-header">
+              <h3>Backend</h3>
+              <span>Server</span>
+            </div>
+            <ul class="skill-list">
+              <li><img src="./nodejs.png" alt="">Node.js <span>70%</span><div class="progress"><i data-progress="70"></i></div></li>
+              <li><img src="./node.js" alt="">Node Runtime <span>68%</span><div class="progress"><i data-progress="68"></i></div></li>
+            </ul>
+          </article>
+
+          <article class="skill-category-card" data-animate>
+            <div class="category-header">
+              <h3>Database</h3>
+              <span>Data</span>
+            </div>
+            <ul class="skill-list">
+              <li><img src="./mongodb.png" alt="">MongoDB <span>70%</span><div class="progress"><i data-progress="70"></i></div></li>
+              <li><img src="./sql.png" alt="">SQL <span>74%</span><div class="progress"><i data-progress="74"></i></div></li>
+            </ul>
+          </article>
+
+          <article class="skill-category-card" data-animate>
+            <div class="category-header">
+              <h3>Tools</h3>
+              <span>Workflow</span>
+            </div>
+            <ul class="tool-cloud" aria-label="Tools">
+              <li><img src="./git.png" alt="">Git</li>
+              <li><img src="./vs-code.png" alt="">VS Code</li>
+              <li><img src="./webpack.png" alt="">Webpack</li>
+              <li><img src="./adobe-xd.png" alt="">Adobe XD</li>
+              <li><img src="./photoshop.png" alt="">Photoshop</li>
+              <li><img src="./slack.png" alt="">Slack</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-heading compact" data-animate>
+          <p class="eyebrow">Experience</p>
+          <h2>Professional growth areas</h2>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card" data-animate>
+            <span>Internships</span>
+            <h3>Open to internship opportunities</h3>
+            <p>Ready to contribute to frontend, full-stack, and product engineering teams.</p>
+          </article>
+          <article class="experience-card" data-animate>
+            <span>Freelance Work</span>
+            <h3>Available for freelance projects</h3>
+            <p>Can support responsive websites, dashboards, UI improvements, and project builds.</p>
+          </article>
+          <article class="experience-card" data-animate>
+            <span>Startup Experience</span>
+            <h3>Startup-ready contributor</h3>
+            <p>Comfortable learning quickly, owning tasks, and building practical MVP features.</p>
+          </article>
+          <article class="experience-card" data-animate>
+            <span>Leadership</span>
+            <h3>Collaborative team member</h3>
+            <p>Brings punctuality, communication, and consistent execution to shared work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-content" data-animate>
+          <p class="eyebrow">Contact</p>
+          <h2>Have you any project? Please drop a message</h2>
+          <p>
+            Get in touch and let me know how I can help. Fill out the form and I'll be in touch as soon as possible.
+          </p>
+
+          <div class="contact-card-grid">
+            <article class="contact-card">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+              <span>Email</span>
+              <a href="mailto:yashktiwari2003@gmail.com">yashktiwari2003@gmail.com</a>
+            </article>
+            <article class="contact-card">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+              <span>Location</span>
+              <address>Delta - 1, Greater-Noida, UP-201310</address>
+            </article>
+            <article class="contact-card">
+              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/yashktiwari03/" target="_blank" rel="noopener noreferrer">yashktiwari03</a>
+            </article>
+            <article class="contact-card">
+              <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+              <span>GitHub</span>
+              <a href="https://github.com/yashktiwari" target="_blank" rel="noopener noreferrer">yashktiwari</a>
+            </article>
+            <article class="contact-card wide">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span>Availability</span>
+              <p>Open to internships, freelance projects, and full-time frontend roles.</p>
+            </article>
+          </div>
+        </div>
+
+        <form action="" class="contact-form" novalidate data-animate>
+          <div class="form-wrapper">
+            <label for="name" class="form-label">Name</label>
+            <div class="input-wrapper">
+              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field" autocomplete="name">
+              <ion-icon name="person-circle" aria-hidden="true"></ion-icon>
+            </div>
+            <small class="field-error">Please enter your name.</small>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="email" class="form-label">Email</label>
+            <div class="input-wrapper">
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com" class="input-field" autocomplete="email">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+            <small class="field-error">Please enter a valid email address.</small>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="phone" class="form-label">Phone</label>
+            <div class="input-wrapper">
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field" autocomplete="tel">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+            <small class="field-error">Please enter your phone number.</small>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="message" class="form-label">Message</label>
+            <div class="input-wrapper">
+              <textarea name="message" id="message" required placeholder="Write message..." class="input-field"></textarea>
+              <ion-icon name="chatbubbles" aria-hidden="true"></ion-icon>
+            </div>
+            <small class="field-error">Please write a short message.</small>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">Send</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo">Yash<span>.</span></a>
+        <p>Software engineer focused on clean, responsive product experiences.</p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <a href="https://github.com/yashktiwari" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/yashktiwari03/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <p class="copyright">&copy; 2022 <a href="#">codewithYash</a>. All rights reserved</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="go-top" data-go-top title="Go to top" aria-label="Go to top">
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
