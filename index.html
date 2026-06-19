@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Tiwari- personal portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Yash<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="hn">Hn</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="hero-container">
+          <div class="hero-content">
+              <h1>Hi, I'm  <span class="highlight">Yash Tiwari</h1>
+              <div class="typing-container">
+                  <!-- Removed the cursor span -->
+                  <p class="title">I'm a <span class="dynamic-text"></span></p>
+              </div>
+          </div>
+          <div class="hero-image">
+              <div class="profile-frame">
+                  <img src="yash img.jpg" alt="Aayush Raj" class="profile-photo">
+              </div>
+          </div>
+      </div>
+  </section>
+<!--       
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="about-content section-content">
+
+         <h2> <p class="section-subtitle">About me</p></h2>
+          <h3><p class="section-text">
+            Passionate about growth through trial and error, I thrive on embracing mistakes 
+            as opportunities for learning. With a diligent work ethic and unwavering punctuality, 
+            I approach each task with dedication and determination. Currently immersing myself 
+            in the realms of Web Development and Data Structures & Algorithms, I am driven by a 
+            constant hunger for knowledge and improvement. Let's connect and grow together.
+
+          </p>
+        </h3>
+        </div>
+
+      </section>
+      <section id="education">
+        <h2 class="education-text">Education</h2>
+        <section class="education-container">
+            <div class="education-card">
+                <div class="education-year">2022 - 2026</div>
+                <div class="education-details">
+                    <h3>Bachelor of Technology</h3>
+                    <p class="institution">Greater Noida Institiute of Technology </p>
+                    <p class="field">Information Technology</p>
+                </div>
+            </div>
+
+            <h2 class="education-text">Projects</h2>
+            <div class="education-card">
+                <div class="education-year">IOT Based Project
+                  (Hardware)</div>
+                <div class="education-details">
+                    <h3>Smart Hindrance Tracking Device</h3>
+                    <p class="institution">Made a Smart Stick Using Arduino and Some Sensor</p>
+                    <p class="field">as Mini Project of My College</p>
+                </div>
+            </div>
+
+
+            <div class="education-card">
+              <div class="education-year">Software</div>
+              <div class="education-details">
+                  <h3>Captcha Recoginition Tool</h3>
+                  <p class="institution">Made a Tool that automatically Detect the Captcha</p>
+                  <p class="field">as Mini Project of My College</p>
+              </div>
+          </div>
+
+            <div class="education-card">
+              <div class="education-year">Dashboard</div>
+              <div class="education-details">
+                  <h3>Farmer Buyer Dashboard</h3>
+                  <p class="institution">Full-stack dashboard connecting farmers and buyers</p>
+                  <p class="field">
+                    <a href="https://agro-marketplace-eta.vercel.app/" class="contact-info" target="_blank" rel="noopener noreferrer">
+                      View live dashboard
+                    </a>
+                  </p>
+              </div>
+            </div>
+
+
+
+            <!-- Education Card 3 -->
+            <!-- <div class="education-card">
+                <div class="education-year">2020</div>
+                <div class="education-details">
+                    <h3>Secondary Education (Matriculation)</h3>
+                    <p class="institution">Holly Cross Public School</p>
+                    <p class="grade">Percentage: 75%</p>
+                </div>
+            </div> -->
+          </section>
+      
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <h3><p class="section-subtitle">My skills</p></h3>
+
+          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+
+         <h3>
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time
+            with these technologies.</p>
+          </h3>
+        </div>
+</section>
+
+       <section class="parent-container"> 
+
+        <div class="skills-box" data-skills-box>
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Frontend</button>
+
+            <button class="toggle-btn" data-toggle-btn>Backend</button>
+          </div>
+
+
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML</div>
+
+                <div class="card-icon">
+                  <img src="./html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS</div>
+
+                <div class="card-icon">
+                  <img src="./css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Angular</div>
+
+                <div class="card-icon">
+                  <img src="./angular.png" alt="Angular logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./react.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Vue</div>
+
+                <div class="card-icon">
+                  <img src="./vue.png" alt="Vue logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+           
+                
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MongoDB</div>
+
+                <div class="card-icon">
+                  <img src="./mongodb.png" alt="MongoDB logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SQL</div>
+
+                <div class="card-icon">
+                  <img src="./sql.png" alt="SQL logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Node.js</div>
+
+                <div class="card-icon">
+                  <img src="./nodejs.png" alt="Node.js logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content" data-animate>
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Have You Any Project? Please Drop a Message</h2>
+
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  Delta - 1 , Greater-Noida , UP-201310
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Availability:</h3>
+
+                <p class="contact-info">
+                  Open to internships, freelance projects, and full‑time frontend roles.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+
+              <a href="mailto:mritunjaykaushik1803@gmail.com" class="contact-info">yashktiwari2003@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://github.com/yashktiwari" class="contact-social-link">
+                    <div class="tooltip">GitHub</div>
+
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a href="https://x.com/Kaushik_ranjan_" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li> -->
+
+                <li>
+                  <a href="https://www.linkedin.com/in/yashktiwari03/" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <!-- <a href="https://www.instagram.com/_kaushik_ranjan.17" class="contact-social-link">
+                    <div class="tooltip">Instagram</div> -->
+
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="" class="contact-form" data-animate>
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+
+      <footer class="footer">
+        <div class="container">
+    
+          <p class="h1 logo">
+            <a href="#">
+              Yash<span>.</span>
+            </a>
+          </p>
+    
+          <p class="copyright">
+            &copy; 2022 <a href="#">codewithYash</a>. All rights reserved
+          </p>
+    
+        </div>
+      </footer>
+      <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+      </a>
+      <script src="index.js"></script>
+
+      <!-- 
+        - ionicon link
+      -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+    
+    </html>
